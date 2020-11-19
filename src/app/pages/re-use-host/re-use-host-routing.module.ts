@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ReUseHostComponent } from 'src/app/pages/re-use-host/re-use-host.component';
+import { ReUseHostComponent } from './re-use-host.component';
 
 
 const routes: Routes = [

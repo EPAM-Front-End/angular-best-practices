@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NoWrapperComponent } from 'src/app/components/no-wrapper/no-wrapper.component';
+import { NoWrapperComponent } from 'src/app/pages/re-use-host/no-wrapper/no-wrapper.component';
 
 
 @NgModule({

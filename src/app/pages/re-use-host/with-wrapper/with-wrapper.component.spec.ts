@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NoWrapperComponent } from './no-wrapper.component';
+import { WithWrapperComponent } from 'src/app/pages/re-use-host/with-wrapper/with-wrapper.component';
 
-describe('NoWrapperComponent', () => {
-  let component: NoWrapperComponent;
-  let fixture: ComponentFixture<NoWrapperComponent>;
+describe('WithWrapperComponent', () => {
+  let component: WithWrapperComponent;
+  let fixture: ComponentFixture<WithWrapperComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoWrapperComponent ]
+      declarations: [ WithWrapperComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NoWrapperComponent);
+    fixture = TestBed.createComponent(WithWrapperComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

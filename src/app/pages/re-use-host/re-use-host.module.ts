@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { ReUseHostRoutingModule } from './re-use-host-routing.module';
 import { ReUseHostComponent } from './re-use-host.component';
-import { WithWrapperModule } from 'src/app/components/with-wrapper/with-wrapper.module';
-import { NoWrapperModule } from 'src/app/components/no-wrapper/no-wrapper.module';
+import { WithWrapperModule } from './with-wrapper/with-wrapper.module';
+import { NoWrapperModule } from './no-wrapper/no-wrapper.module';
 
 
 @NgModule({

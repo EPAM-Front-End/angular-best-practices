@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WithWrapperComponent } from 'src/app/components/with-wrapper/with-wrapper.component';
+import { WithWrapperComponent } from 'src/app/pages/re-use-host/with-wrapper/with-wrapper.component';
 
 
 @NgModule({
