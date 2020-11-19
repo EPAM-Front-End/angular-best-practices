@@ -4,4 +4,8 @@
   border: 1px solid orangered;
 
   display: flex;
+
+  > * {
+    flex-grow: 1;
+  }
 }
