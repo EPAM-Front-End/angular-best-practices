@@ -3,17 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { ReUseHostRoutingModule } from './re-use-host-routing.module';
 import { ReUseHostComponent } from './re-use-host.component';
-import { WithWrapperModule } from './with-wrapper/with-wrapper.module';
-import { NoWrapperModule } from './no-wrapper/no-wrapper.module';
+import { WithWrapperComponent } from './with-wrapper/with-wrapper.component';
+import { NoWrapperComponent } from './no-wrapper/no-wrapper.component';
 
 
 @NgModule({
-  declarations: [ReUseHostComponent],
+  declarations: [ReUseHostComponent, NoWrapperComponent, WithWrapperComponent],
   imports: [
     CommonModule,
     ReUseHostRoutingModule,
-    WithWrapperModule,
-    NoWrapperModule,
   ],
 })
-export class ReUseHostModule { }
+export class ReUseHostModule {}
