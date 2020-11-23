@@ -1,0 +1,27 @@
+<abp-one header="Custom header">
+  <p>Single <code>ng-content</code></p>
+</abp-one>
+<abp-two>
+  <span two-header>Injected header</span>
+  <button two-header>BTN</button>
+
+  <p>Multiple <code>ng-content</code> with select by directive (header - select="[two-header]") and by css class (footer - select=".two-footer")</p>
+
+  <div class="two-footer">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+  </div>
+</abp-two>
+<abp-three>
+  <span>Injected header</span>
+  <button>BTN</button>
+
+  <p>Multiple <code>ng-content</code> with select by directive (header - select="span, button") and by css class (footer - select="div")</p>
+
+  <div class="two-footer">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+  </div>
+</abp-three>

@@ -1,0 +1,28 @@
+:host {
+  border: 1px solid orange;
+  min-width: 150px;
+  max-width: 350px;
+  display: inline-block;
+}
+
+.header {
+  min-height: 1.5rem;
+  line-height: 1.5rem;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  min-height: 100px;
+  background-color: aliceblue;
+}
+
+.footer {
+  min-height: 1.5rem;
+  line-height: 1.5rem;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+}
