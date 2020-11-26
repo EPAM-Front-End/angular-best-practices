@@ -4,7 +4,6 @@ import { CompWithDataComponent } from './comp-with-data';
 
 
 @Component({
-  selector: 'abp-dynamic-rendering',
   templateUrl: './dynamic-rendering.component.html',
   styleUrls: ['./dynamic-rendering.component.scss'],
 })
